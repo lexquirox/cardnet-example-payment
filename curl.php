@@ -1,7 +1,7 @@
 <?php
 	$apiUrl     = 'https://lab.cardnet.com.do/servicios/tokens/v1/';
-	$publicKey  = 'mfH9CqiAFjFQh_gQR_1TQG_I56ONV7HQ';
-	$privateKey = '9kYH2uY5zoTD-WBMEoc0KNRQYrC7crPRJ7zPegg3suXguw_8L-rZDQ__';
+	$publicKey  = 'public_key';
+	$privateKey = 'private_key';
 
 	$amount     = $_POST['amount']  ?? '1';
 	$realAmount = number_format($amount, 2, '.', '');
